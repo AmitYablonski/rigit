@@ -1,0 +1,14 @@
+SHADING CHECK LIST
+hierarchy - compare with rigging
+switchers/c_attrs
+unlock attrs
+override geos
+lambert1
+transform values
+naming
+anim keys / cache values / bake
+-----------
+metadata
+subdiv/Displacment (talk with shading)
+HDR env connected (talk with shading)
+fur smooth

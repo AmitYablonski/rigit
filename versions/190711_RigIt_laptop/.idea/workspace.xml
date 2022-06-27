@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf31ddfd-4117-4798-ace6-1e8b78b269ce" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.50296843">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
+          <file leaf-file-name="RigItUI.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/RigItUI.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="27491">
+                  <caret line="756" column="94" lean-forward="false" selection-start-line="755" selection-start-column="48" selection-end-line="756" selection-end-column="94" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ScriptIt.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ScriptIt.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1554">
+                  <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="generalMayaTools.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/generalMayaTools.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="26048">
+                  <caret line="709" column="35" lean-forward="false" selection-start-line="709" selection-start-column="35" selection-end-line="709" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SI_VariantMaker.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ScriptIt/SI_VariantMaker.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3959">
+                  <caret line="113" column="24" lean-forward="false" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UVtransMaster.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/UVtransMaster.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="606">
+                  <caret line="228" column="41" lean-forward="false" selection-start-line="228" selection-start-column="41" selection-end-line="228" selection-end-column="41" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                    <element signature="e#484#1182#0" expanded="false" />
+                    <element signature="e#1229#1777#0" expanded="false" />
+                    <element signature="e#1829#2621#0" expanded="false" />
+                    <element signature="e#2670#3151#0" expanded="false" />
+                    <element signature="e#4082#5710#0" expanded="false" />
+                    <element signature="e#5764#6296#0" expanded="false" />
+                    <element signature="e#6348#7220#0" expanded="false" />
+                    <element signature="e#9360#10641#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="transferAttrsUV_v0.1.py" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Downloads/transferAttrsUV_v0.1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="74">
+                  <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="25" selection-end-column="34" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SI_ExtraScriptIt.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ScriptIt/SI_ExtraScriptIt.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1554">
+                  <caret line="46" column="64" lean-forward="false" selection-start-line="46" selection-start-column="64" selection-end-line="60" selection-end-column="25" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CurveRigTool.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/CurveRigTool.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="4773">
+                  <caret line="132" column="75" lean-forward="false" selection-start-line="132" selection-start-column="75" selection-end-line="151" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
+          <file leaf-file-name="SI_VariantMaker.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ScriptIt/SI_VariantMaker.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UI_modules.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/RigItUI/UI_modules.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="814">
+                  <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="78" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UVtransMaster.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/UVtransMaster.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="495">
+                  <caret line="136" column="28" lean-forward="true" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                    <marker date="1562832552479" expanded="true" signature="8943:9083" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RigItMethodsUI.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/RigItMethodsUI.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1813">
+                  <caret line="49" column="11" lean-forward="false" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+                  <folding>
+                    <element signature="e#0#21#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SI_AttrMaker.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ScriptIt/SI_AttrMaker.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2516">
+                  <caret line="71" column="8" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="JaliTool_UI.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../Jali/JaliStuff/JaliTool/JaliTool_UI.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3663">
+                  <caret line="102" column="20" lean-forward="false" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="20" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RigItBasicWindow.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/RigItUI/RigItBasicWindow.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>transToBound</find>
+      <find>'select</find>
+      <find>selectLay1</find>
+      <find>selectAndAddToField</find>
+      <find>exectransByAssos</find>
+      <find>par</find>
+      <find>Get files failed, check i</find>
+      <find>destgrp</find>
+      <find>uim</find>
+      <find>origObj</find>
+      <find>sourceObj</find>
+      <find>'transfer'</find>
+      <find>destObj</find>
+      <find>ourceGrp</find>
+      <find>sourceGrp</find>
+      <find>updateScrolls</find>
+      <find>updateTextField</find>
+      <find>updateFromSelection</find>
+      <find>frameAndLayout</find>
+      <find>nameMatchCheck</find>
+      <find>destGrp</find>
+      <find>sourceScroll</find>
+      <find>addScrollSetup</find>
+      <find>textScrollList</find>
+      <find>origobj</find>
+      <find>textscroll</find>
+      <find>print</find>
+      <find>transByParentGrps</find>
+      <find>origSelector</find>
+      <find>transferAttributes</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ri</replace>
+      <replace>RigIt</replace>
+      <replace>&quot;from maya import mel; mel.eval</replace>
+      <replace>rim</replace>
+      <replace>varMakerPopulate</replace>
+      <replace>self.resetLay</replace>
+      <replace>cmds.button</replace>
+      <replace>scrollH</replace>
+      <replace>,</replace>
+      <replace>+ &quot;F</replace>
+      <replace>compileRunner</replace>
+      <replace>attrRenamer</replace>
+      <replace>printFeedback</replace>
+      <replace>ctl</replace>
+      <replace>mainShader</replace>
+      <replace>MainToMany</replace>
+      <replace>transByParent</replace>
+      <replace>UVtransMaster</replace>
+      <replace>frameAndLayout</replace>
+      <replace>cmds.rowColumnLayout</replace>
+      <replace>, nc=1, p=uiLay</replace>
+      <replace>parLay</replace>
+      <replace>validObjects</replace>
+      <replace>execTransByAssos</replace>
+      <replace>source</replace>
+      <replace>dest</replace>
+      <replace>boundDestObj</replace>
+      <replace>parentSourceGrp</replace>
+      <replace>execTransByParentGrps</replace>
+      <replace>parentDestGrp</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ScriptIt/Extras/buttons.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/Extras/aimConstraint.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/Extras/pythonStrings.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/Extras/objectInfo.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/Extras/skinning.py" />
+        <option value="$PROJECT_DIR$/ExtraScriptIt.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/Extras/python/pythonStrings.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/Extras/python/pythonLists.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/Extras/python/tricks.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/Extras/python/time.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/Extras/constraints and deformers/blendShape.py" />
+        <option value="$PROJECT_DIR$/AttrMaker.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/Extras/other/objectInfo.py" />
+        <option value="D:/For SnowRig scripts/scripts/MBA_rigging_repo/scripts_toDo_2018_03_26.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/Extras/nodes/plusMinAve.py" />
+        <option value="$PROJECT_DIR$/SnowRigMethodsUI.py" />
+        <option value="$PROJECT_DIR$/BspEditor.py" />
+        <option value="$PROJECT_DIR$/SnowRigUI.py" />
+        <option value="$PROJECT_DIR$/scriptsHelpers.py" />
+        <option value="$PROJECT_DIR$/RenameTool.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/ExtraScriptIt.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/Extras/nodes/distance.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/Extras/Avalanch tools/mayaTools.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/Extras/mgear/addCtrlToSpring.py" />
+        <option value="$PROJECT_DIR$/setupRigIt.py" />
+        <option value="$PROJECT_DIR$/../SnowRig/ScriptIt/SI_BspEditor.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/SI_ColorIt.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/SI_ConnectionMaker.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/SI_ExtraScriptIt.py" />
+        <option value="$PROJECT_DIR$/../../../assets/characters/camilla/rigging/camilla/customSteps/extraPupilsSetup.py" />
+        <option value="$PROJECT_DIR$/generalMayaPrints.py" />
+        <option value="$PROJECT_DIR$/BspDuplicator.py" />
+        <option value="$PROJECT_DIR$/../SnowRig/ScriptIt/VarianterRunnerMaker.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/VarianterRunnerMaker.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/SI_BspEditor.py" />
+        <option value="$PROJECT_DIR$/RigItWinBase.py" />
+        <option value="$PROJECT_DIR$/RigItUI/WinTest.py" />
+        <option value="$PROJECT_DIR$/GroupIt.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/SI_Varianter.py" />
+        <option value="$PROJECT_DIR$/RigItUI/RigItWinBase.py" />
+        <option value="$PROJECT_DIR$/ScriptIt.py" />
+        <option value="$PROJECT_DIR$/RigItMethodsUI.py" />
+        <option value="$PROJECT_DIR$/generalMayaTools.py" />
+        <option value="$PROJECT_DIR$/ScriptIt/SI_VariantMaker.py" />
+        <option value="$PROJECT_DIR$/ColorSwitcher.py" />
+        <option value="$PROJECT_DIR$/UVmaster.py" />
+        <option value="$PROJECT_DIR$/RigItUI.py" />
+        <option value="$PROJECT_DIR$/MassAttrTransfer.py" />
+        <option value="$PROJECT_DIR$/RigItUI/UI_modules.py" />
+        <option value="$PROJECT_DIR$/RigItUI/RigItBasicWindow.py" />
+        <option value="$PROJECT_DIR$/UVtransMaster.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="1551" />
+    <option name="width" value="1280" />
+    <option name="height" value="517" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyPep8Inspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RigIt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RigIt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RigIt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RigIt" type="462c0819:PsiDirectoryNode" />
+              <item name="RigItUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RigIt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RigIt" type="462c0819:PsiDirectoryNode" />
+              <item name="ScriptIt" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value=":&#9;null&#9;null" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SnowRig/ScriptIt.py" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../SnowRig/ScriptIt.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\For SnowRig scripts\scripts\MBA_rigging_repo" />
+      <recent name="D:\For SnowRig scripts\scripts\MBA_rigging_repo\general_maya_scripts\ofir" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf31ddfd-4117-4798-ace6-1e8b78b269ce" name="Default" comment="" />
+      <created>1519627213158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519627213158</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-14" y="-14" width="3868" height="2098" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14564644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24986808" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14564644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24986808" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FinalizeRig_snowball.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LiteWrap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mGearMethods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overrideAllWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RenameTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:////storage/projects/MBA/MBA_rigging_repo/SnowRig_compare/generalMayaTools.py" />
+    <entry file="file:////storage/projects/MBA/MBA_rigging_repo/SnowRig/generalMayaPrints.py" />
+    <entry file="file:////storage/projects/MBA/MBA_rigging_repo/SnowRig/rigItUpdate/generalMayaTools.py" />
+    <entry file="file://$PROJECT_DIR$/ScriptIt/SI_ConnectionMaker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScriptIt/SI_LiteWrap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SnowRig/ScriptIt/SI_BspEditor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="192" column="19" lean-forward="false" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:////storage/projects/MBA/MBA_rigging_repo/SnowRig/ScriptIt/SI_Varianter.py" />
+    <entry file="file:////storage/projects/MBA/MBA_rigging_repo/SnowRig_compare/SnowRigMethodsUI.py" />
+    <entry file="file://$PROJECT_DIR$/../../../assets/characters/camilla/rigging/camilla/customSteps/extraPupilsSetup.py" />
+    <entry file="file://$PROJECT_DIR$/generalMayaPrints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SnowRig/Varianter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SnowRig/ScriptIt/VarianterRunnerMaker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScriptIt/SI_BspEditor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ColliderTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScriptIt/Extras/Avalanch tools/mayaTools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RigItWinBase.py" />
+    <entry file="file://$PROJECT_DIR$/SnowRigMethodsUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="21" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScriptIt/Extras/mgear/addCtrlToSpring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScriptIt/VarianterRunnerMaker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowballTools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RigItUI/WinTest - Copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RigItUI/RigItWinBase - Copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RigItUI/RigItWinBase - Copy (2).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CurveRigTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4773">
+          <caret line="132" column="75" lean-forward="false" selection-start-line="132" selection-start-column="75" selection-end-line="151" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScriptIt/SI_AttrMaker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2516">
+          <caret line="71" column="8" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScriptIt/SI_ColorIt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="140" column="27" lean-forward="false" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScriptIt/SI_ExtraScriptIt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1554">
+          <caret line="46" column="64" lean-forward="false" selection-start-line="46" selection-start-column="64" selection-end-line="60" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GroupIt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="33" column="62" lean-forward="false" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScriptIt/SI_Varianter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="218" column="41" lean-forward="true" selection-start-line="218" selection-start-column="41" selection-end-line="218" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScriptIt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1554">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Jali/JaliStuff/JaliTool/JaliTool_UI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3663">
+          <caret line="102" column="20" lean-forward="false" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RigItUI/WinTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RigItUI/RigItWinBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UVmaster.py" />
+    <entry file="file://$PROJECT_DIR$/MassTools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="895">
+          <caret line="37" column="78" lean-forward="false" selection-start-line="37" selection-start-column="71" selection-end-line="37" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MassAttrTransfer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generalMayaTools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26048">
+          <caret line="709" column="35" lean-forward="false" selection-start-line="709" selection-start-column="35" selection-end-line="709" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/transferAttrsUV_v0.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="25" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RigItUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27491">
+          <caret line="756" column="94" lean-forward="false" selection-start-line="755" selection-start-column="48" selection-end-line="756" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ColorSwitcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="140" column="40" lean-forward="false" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScriptIt/SI_VariantMaker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3959">
+          <caret line="113" column="24" lean-forward="false" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BspDuplicator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="22" column="67" lean-forward="true" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RigItUI/RigItBasicWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RigItMethodsUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1813">
+          <caret line="49" column="11" lean-forward="false" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RigItUI/UI_modules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UVtransMaster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="228" column="41" lean-forward="false" selection-start-line="228" selection-start-column="41" selection-end-line="228" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#484#1182#0" expanded="false" />
+            <element signature="e#1229#1777#0" expanded="false" />
+            <element signature="e#1829#2621#0" expanded="false" />
+            <element signature="e#2670#3151#0" expanded="false" />
+            <element signature="e#4082#5710#0" expanded="false" />
+            <element signature="e#5764#6296#0" expanded="false" />
+            <element signature="e#6348#7220#0" expanded="false" />
+            <element signature="e#9360#10641#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

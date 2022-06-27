@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf31ddfd-4117-4798-ace6-1e8b78b269ce" name="Default" comment="mini fixes">
+      <change beforePath="$PROJECT_DIR$/RigFinalizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/RigFinalizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScriptIt/Extras/tools/rivets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generalMayaTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/generalMayaTools.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectId" id="1QYilxV0jsgHnpyBDsXkT9SKgDc" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyPep8Inspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value=":&#9;null&#9;null" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/versions/200120_RigIt_laptop/generalMayaTools.py" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/versions/200120_RigIt_laptop/generalMayaTools.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\For SnowRig scripts\scripts\MBA_rigging_repo" />
+      <recent name="D:\For SnowRig scripts\scripts\MBA_rigging_repo\general_maya_scripts\ofir" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf31ddfd-4117-4798-ace6-1e8b78b269ce" name="Default" comment="" />
+      <created>1519627213158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519627213158</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First git save for RigIt">
+      <created>1559042765037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559042765037</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First git save for RigIt icons">
+      <created>1559043175870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559043175870</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated in several places&#10;- added Color Switcher">
+      <created>1561637314748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561637314748</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated GroupIt">
+      <created>1561637589717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561637589717</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated GroupIt">
+      <created>1561637626146</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561637626146</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated UVtransMaster">
+      <created>1563787731412</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563787731413</updated>
+    </task>
+    <task id="LOCAL-00007" summary="big update&#10;unlocked git and submitted changes&#10;- added VRay ID tool&#10;- UV trans master tool&#10;- select influences&#10;- light wrap using cv wrap (not as stable though)&#10;- updated a few script it scripts&#10;- added Rig Finalizer - checklist">
+      <created>1572903342304</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572903342304</updated>
+    </task>
+    <task id="LOCAL-00008" summary="big update pt 2&#10;- UI modules">
+      <created>1572903483412</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572903483413</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <created>1572969267061</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572969267061</updated>
+    </task>
+    <task id="LOCAL-00010" summary="corrected find pos name">
+      <created>1573142597521</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573142597521</updated>
+    </task>
+    <task id="LOCAL-00011" summary="- Rig finalizer update + added fixer (basic)&#10;- added transfer vtx weights (by selection)&#10;- UV trans master update - fixed transfer issue&#10;- Updated vray id tool (turning on vray ID)">
+      <created>1574160894216</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574160894216</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added front of chain">
+      <created>1574160928949</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574160928949</updated>
+    </task>
+    <task id="LOCAL-00013" summary="- updated for only sets to look for steps under high grp&#10;- anim found will show each obj only once&#10;- start log fixed and added time stamp">
+      <created>1574162384866</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574162384866</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update&#10;- added multiUVConnect&#10;- sorted UI shading tools&#10;- general updates/mini fixes">
+      <created>1577120014236</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1577120014236</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added files and a bunch of updates&#10;- added gmt.copyWeights()&#10;- added gmt.isUnderPar()&#10;- new and improved multiUVConnect&#10;- updated renamer to not fail on some more cases">
+      <created>1578996685777</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578996685777</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update&#10;- added naming clashes separation and selection window&#10;- added search for vals on &quot;*_ctl&quot;&#10;- corrected isTooFarFromParent for sets&#10;- added search for outside of main&#10;- added yellow feedback color for when finding a guide on props/sets&#10;- updated log prints">
+      <created>1578998028787</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1578998028787</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added to git">
+      <created>1579003410228</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1579003410228</updated>
+    </task>
+    <task id="LOCAL-00018" summary="save before update">
+      <created>1579534878011</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1579534878011</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First git save for RigIt" />
+    <MESSAGE value="First git save for RigIt icons" />
+    <MESSAGE value="updated in several places&#10;- added Color Switcher" />
+    <MESSAGE value="updated GroupIt" />
+    <MESSAGE value="updated UVtransMaster" />
+    <MESSAGE value="lite wrap update" />
+    <MESSAGE value="big update&#10;unlocked git and submitted changes&#10;- added VRay ID tool&#10;- UV trans master tool&#10;- select influences&#10;- light wrap using cv wrap (not as stable though)&#10;- updated a few script it scripts&#10;- added Rig Finalizer - checklist" />
+    <MESSAGE value="big update pt 2&#10;- UI modules" />
+    <MESSAGE value="update" />
+    <MESSAGE value="corrected find pos name" />
+    <MESSAGE value="- Rig finalizer update + added fixer (basic)&#10;- added transfer vtx weights (by selection)&#10;- UV trans master update - fixed transfer issue&#10;- Updated vray id tool (turning on vray ID)" />
+    <MESSAGE value="added front of chain" />
+    <MESSAGE value="- updated for only sets to look for steps under high grp&#10;- anim found will show each obj only once&#10;- start log fixed and added time stamp" />
+    <MESSAGE value="update&#10;- added multiUVConnect&#10;- sorted UI shading tools&#10;- general updates/mini fixes" />
+    <MESSAGE value="added files and a bunch of updates&#10;- added gmt.copyWeights()&#10;- added gmt.isUnderPar()&#10;- new and improved multiUVConnect&#10;- updated renamer to not fail on some more cases" />
+    <MESSAGE value="update&#10;- added naming clashes separation and selection window&#10;- added search for vals on &quot;*_ctl&quot;&#10;- corrected isTooFarFromParent for sets&#10;- added search for outside of main&#10;- added yellow feedback color for when finding a guide on props/sets&#10;- updated log prints" />
+    <MESSAGE value="added to git" />
+    <MESSAGE value="mini fixes" />
+    <MESSAGE value="save before update" />
+    <option name="LAST_COMMIT_MESSAGE" value="save before update" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,330 @@
+//:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::://
+//  Script:     ak_rope                                                                         //
+//  Version:    12.0                                                                            //
+//  Date:       21.05.2013                                                                      //
+//  Author:     Andrey Kanin                                                                    //
+//:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::://
+global proc ak_rope (){
+   string $win = "ROPE";
+   if (`window -exists $win`) deleteUI $win;
+window -t "ak       ROPE" -w 100 -h 100 -tlb 1 -mb 1 $win;
+   columnLayout -w 101;
+         rowLayout -nc 2;
+            button -w 48 -h 15 -bgc 0.3 0.3 0.3 -l "curve" -c "rp_curve";
+            button -w 48 -h 15 -bgc 0.3 0.3 0.3 -l "bezier" -c "rp_bezier";
+         setParent..;
+      separator -st "in" -w 100 -h 5;
+         rowLayout -nc 4 -cw4 5 15 50 15; text " ";
+            checkBoxGrp -w 15 -ncb 1 -v1 1
+            -cc "if(`checkBoxGrp -q -v1 CTJ`){checkBoxGrp -e -vis 1 CTJP;}else{checkBoxGrp -e -vis 0 CTJP;}"
+            -ann "add circle contollers CT" CTJ;
+            text "   add CT";
+            checkBoxGrp -w 15 -ncb 1 -v1 0 -ann "add bezier CT contollers"
+            -cc "if(`checkBoxGrp -q -v1 CTJP`){text -e -en 0 TXTCT;}else{text -e -en 1 TXTCT;}" CTJP;
+         setParent..;
+      separator -st "in" -w 100 -h 5;
+      button -w 99 -h 20 -l "riging curve" -bgc 0.8 0.8 0.1 -ann "riging curve" -c "rp_cr";
+      separator -st "in" -w 100 -h 5;
+         rowLayout -nc 4 -cw4 5 15 50 15; text " ";
+            checkBoxGrp -w 15 -ncb 1 -v1 1
+            -cc "if(`checkBoxGrp -q -v1 MRL`){checkBoxGrp -e -v1 0 VRL;}"
+            -ann "nodes sistem" MRL;
+            button -w 50 -h 20 -bgc 0.3 0.3 0.3 -l "twist" -ann "resistems" -c "rp_mixTwist;rp_Twist;";
+            checkBoxGrp -w 15 -ncb 1 -v1 0
+            -cc "if(`checkBoxGrp -q -v1 VRL`){checkBoxGrp -e -v1 0 MRL;}"
+            -ann "vectors sistem" VRL;
+         setParent..;
+      separator -st "in" -w 100 -h 5;
+         rowLayout -nc 2 -cw2 60 30;
+            text -l "   controls" TXTCT;
+            intField -w 37 -v 3 -min 2 -max 100 -bgc 0.15 0.15 0.15 -ann "how many contols" NCJ;
+         setParent..;
+         rowLayout -nc 2 -cw2 60 30;
+            text "   segment";
+            intField -w 37 -v 5 -min 1 -max 100 -bgc 0.15 0.15 0.15 -ann "how many segments" PCJ;
+         setParent..;
+         rowLayout -nc 2 -cw2 60 30;
+            text "   ==>";
+            intField -w 37 -v 10 -min 1 -max 100 -bgc 0.3 0.3 0.3 -ann "total segments" NJ;
+         setParent..;
+      separator -st "in" -w 100 -h 5;
+         rowLayout -nc 2 -cw2 60 30;
+            text "   orient";
+            intField -w 37 -v 0 -min 0 -max 360 -bgc 0.2 0.2 0.2 -ann "orient ik sistem" OJ;
+         setParent..;
+      separator -st "in" -w 100 -h 5;
+         rowLayout -nc 2;
+            button -w 60 -h 20 -bgc 0.0 0.6 0.4 -l "surface" -ann "convert to surface" -c "rp_surface";
+            optionMenuGrp -w 36 -bgc 0.2 0.2 0.2 AXES; menuItem -l "y"; menuItem -l "x"; menuItem -l "z";
+         setParent..;
+      separator -st "in" -w 100 -h 5;
+         rowLayout -nc 2;
+            button -w 60 -h 20 -bgc 0.2 0.2 0.2 -l "grip" -c "rp_grip";
+            button -w 36 -h 20 -bgc 0.2 0.2 0.2 -l "del" -c "rp_del";
+         setParent..;
+   setParent..;
+showWindow $win;   }
+//..............................................................................................//
+global proc rp_curve (){
+string $s[]  = `ls -sl`;if(`size($s)`==0){EPCurveTool;}else{rp_convert_curve ($s);}   }
+global proc rp_bezier (){
+string $s[]  = `ls -sl`;if(`size($s)`==0){CreateBezierCurveTool;}else{rp_convert_curve ($s);}   }
+global proc rp_convert_curve (string $s[]){
+string $ss[] = `listRelatives -s $s[0]`; string $tss  = `objectType $ss[0]`;
+if (`gmatch $tss "nurbsCurve"`){nurbsCurveToBezier;}
+if (`gmatch $tss "bezierCurve"`){bezierCurveToNurbs;}   }
+//..............................................................................................//
+global proc rp_check (string $s[]){
+                    if(`gmatch $s[0] "*CT*"`)      {error " :( > this is not a rope curve";}
+                    if(`size($s)`==0)                   {error " :( > nothing is selected";}
+    string $ss[] = `listRelatives -s $s[0]`; // > selection shape
+                    if(`size($ss)`==0)                  {error " :( > this is not a curve";}
+    string $tss  = `objectType $ss[0]`;      // > type selection shape
+    int $typ;       if (`gmatch $tss "nurbsCurve"`||`gmatch $tss "bezierCurve"`) {$typ = 1;}
+                    if ($typ==0) {error " :( > this is not a curve";}                      }
+//..............................................................................................//
+global proc rp_del (){
+string $s[]  = `ls -sl`; rp_check($s);
+if(`objExists ($s[0]+"_rig")`){parent -w $s[0];delete ($s[0]+"_rig");}   }
+//..............................................................................................//
+global proc string rp_info (string $s[]){
+                  if(`objExists ($s[0]+"_info")`){delete ($s[0]+"_info");}
+    string $ss[] = `listRelatives -s $s[0]`;
+    string $is = `createNode -n ($s[0]+"_info") curveInfo`;
+                  connectAttr -f ($ss[0]+".ws[0]")($is+".ic");                       return $is;}
+//..............................................................................................//
+global proc string[] rp_create_control (string $s[],int $i){ string $ct[];
+string $cct[] = `circle -nr 1 0 0 -r 1 -d 3 -ch 0 -n ($s[0]+"_"+($i+1)+"_CT")`;
+$ct[0]=$cct[0]; print $ct;
+$ct[1]  = `group -n ("ctGrp_"+$s[0]+"_"+($i+1)) $ct[0]`;
+   setAttr ($ct[0]+"Shape.ove") 1; setAttr ($ct[0]+"Shape.ovc") 17;
+setAttr -l 1 -k 0 ($ct[0]+".sx"); setAttr -l 1 -k 0 ($ct[0]+".sy"); setAttr -l 1 -k 0 ($ct[0]+".sz");
+   setAttr -k 0 ($ct[0]+".v"); setAttr ($ct[0]+".ro") 3;
+addAttr -ln "bezier" -at "bool" -k 1 $ct[0];
+   setAttr -k 0 -cb 1 ($ct[0]+".bezier"); setAttr ($ct[0]+".bezier") 1;
+addAttr -ln "change" -at "double" -min 0 -dv 1 -k 1 $ct[0];                          return $ct;}
+//..............................................................................................//
+global proc rp_cr (){
+// > input data
+    int $ncj = `intField -q -v NCJ`;   // > control joints
+    int $pcj = `intField -q -v PCJ`;   // > pow control joints
+    int $nj  = (($ncj*$pcj)-($pcj-1)); // > joints
+    intField -e -v ($nj-1) NJ;
+    int $oj = `intField -q -v OJ`;     // > orient joint
+// > selection list
+   string $s[]  = `ls -sl`; rp_check($s);
+                            string $ss[] = `listRelatives -s $s[0]`; // > selection shape
+                            string $tss  = `objectType $ss[0]`;      // > type selection shape
+                            int $typ;       if (`gmatch $tss "nurbsCurve"`){$typ=0;}
+                                            if (`gmatch $tss "bezierCurve"`){$typ=1;}
+   rp_del;
+   delete -ch $s[0];
+   if($typ==0){rebuildCurve -kep 1 -kt 1 -s ($nj-1) -d 3 $s[0];}
+   setAttr ($s[0]+".it") 0;
+// > curve info
+   string $is = `rp_info($s)`;
+   float  $iv = `getAttr ($is+".al")`;
+// > group folders
+   string $rg = `group -n ($s[0]+"_rig") -em`;
+   string $sg = `group -n ($s[0]+"_sistem") -em`;
+// > twist joint
+    string $sj[];
+    string $ds = `curve -d 1 -p 0 0 0 -p $iv 0 0 -k 0 -k 1 -n ($s[0]+"_tw")`;
+                  rebuildCurve -ch 0 -kep 1 -s ($nj-1) -d 1 $ds;
+                  if ($nj==3) {delete ($ds+".cv[1]");delete ($ds+".cv[2]");}
+    for($i=0;$i<$nj;$i++){vector $t = `xform -q -t -ws ($ds+".cv["+$i+"]")`;
+                          $sj[$i] = `joint -p ($t.x)($t.y)($t.z) -n ($s[0]+"_tw_"+($i+1)) -rad 1`;
+                          setAttr ($sj[$i]+".ro") 3;}
+                          rotate -r -os $oj 0 0 $sj[0]; makeIdentity -a 1 -r 1 $sj[0];
+    string $h[] = `ikHandle -n ($s[0]+"_tw_hl") -sol "ikSplineSolver"
+                            -ccv 0 -sj $sj[0] -ee $sj[$nj] -c $s[0]`; 
+    parent $sj[0] $h[0] $sg; delete $ds;
+// > control joint
+        select -r $s[0]; selectCurveCV("all"); string $cv[]  = `ls -sl -fl`;
+                                   int $p = (((size($cv))+2)/3); select -cl;
+    string $cj[];
+    if(`checkBoxGrp -q -v1 CTJP`){
+        setAttr ($s[0]+".it") 1;
+        // > create joints
+        for($i=0;$i<(size($cv));$i++)
+           {vector $t = `xform -q -t -ws $cv[$i]`; select -cl;
+            $cj[$i] = `joint -p ($t.x)($t.y)($t.z) -n ($s[0]+"_ctj_"+($i+1)) -rad 2`;
+            setAttr ($cj[$i]+".ro") 3;}
+        // > aim joints
+        for($i=0;$i<((size($cv))-1);$i++){aimConstraint -o 0 180 0 -w 1 $cj[$i] $cj[$i+1];}
+            aimConstraint -o 0 0 0 -w 1 $cj[1] $cj[0]; delete -cn $cj; makeIdentity -a 1 -r 1 $cj;
+        // > correct aim joints
+        for($i=0;$i<($p-1);$i++){aimConstraint -o 0 0 0 -w 1 $cj[$i+(2*$i)] $cj[$i+1+(2*$i)];}
+        for($i=1;$i<($p-0);$i++){aimConstraint -o 0 0 0 -w 1 $cj[$i+(2*$i)] $cj[$i-1+(2*$i)];}
+            delete -cn $cj; makeIdentity -a 1 -r 1 $cj;}
+    else{
+    for($i=0;$i<$ncj;$i++){vector $t = `xform -q -t -ws $sj[($i*$pcj)]`; select -cl;
+                           $cj[$i] = `joint -p ($t.x)($t.y)($t.z) -n ($s[0]+"_ctj_"+($i+1)) -rad 2`;
+                           setAttr ($cj[$i]+".ro") 3;
+                           parentConstraint -w 1 $sj[($i*$pcj)] $cj[$i]; delete -cn $cj[$i];
+                           makeIdentity -a 1 -r 1 $cj[$i];}}
+    parent $cj $sg;
+    parent $sg $s[0] $rg;
+// > connect scale
+    string $sw = `createNode -n ($s[0]+"_s") multiplyDivide`; setAttr ($sw+".op")2;
+                  connectAttr -f ($is+".al")($sw+".i1x");
+                  connectAttr -f ($rg+".sx")($sw+".i2x");
+    string $sx = `createNode -n($s[0]+"_sx") multiplyDivide`; setAttr ($sx+".op")2;
+                  connectAttr -f ($sw+".ox")($sx+".i1x");
+                  setAttr ($sx+".i2x") $iv;
+                  for($i=0;$i<$nj;$i++){connectAttr -f ($sx+".ox")($sj[$i]+".sx");}
+// > add control
+    if(`checkBoxGrp -q -v1 CTJ`){ string $cg = `group -n ($s[0]+"_control") -em`;
+       if(`checkBoxGrp -q -v1 CTJP`){
+           string $c[]; string $t[];
+          for($i=0;$i<(size($cv));$i++){
+              connectAttr -f ($cj[$i]+".t") ($ss[0]+".cp["+$i+"]");
+              string $ct[] = rp_create_control ($s,$i); $c[$i]=$ct[0]; $t[$i]=$ct[1];
+              parentConstraint -w 1 $cj[$i] $ct[1];
+              delete -cn $ct[1]; makeIdentity -a 1 -t 1 $ct[1];
+              parentConstraint -mo -w 1 $ct[0] $cj[$i];
+              parent $ct[1] $cg;}
+   string $scg[];
+for($i=0;$i<$p;$i++){
+$scg[$i] = `group -em -n ("scGrp_"+$s[0]+"_"+($i+1))`;
+string $scgpc[] = `parentConstraint -w 1 $c[$i+(2*$i)] $scg[$i]`;
+delete $scgpc[0]; makeIdentity -a 1 -t 1 $scg[$i];
+parent $scg[$i] $c[$i+(2*$i)];
+connectAttr -f ($c[$i+(2*$i)]+".change") ($scg[$i]+".sx");
+connectAttr -f ($c[$i+(2*$i)]+".change") ($scg[$i]+".sy");
+connectAttr -f ($c[$i+(2*$i)]+".change") ($scg[$i]+".sz");}
+for($i=0;$i<($p-1);$i++){parent $t[$i+1+(2*$i)] $scg[$i];
+    setAttr ($t[$i+1+(2*$i)]+".sx") 0.5;setAttr ($t[$i+1+(2*$i)]+".sy") 0.5;setAttr ($t[$i+1+(2*$i)]+".sz") 0.5;
+    setAttr -l 1 -k 0 -cb 0 ($c[$i+1+(2*$i)]+".bezier");
+    setAttr -l 1 -k 0 -cb 0 ($c[$i+1+(2*$i)]+".change"); setAttr -l 1 -k 0 -cb 0 ($c[$i+1+(2*$i)]+".rx");
+    setAttr -l 1 -k 0 -cb 0 ($c[$i+1+(2*$i)]+".ry");     setAttr -l 1 -k 0 -cb 0 ($c[$i+1+(2*$i)]+".rz");
+    connectAttr -f ($c[$i+(2*$i)]+".bezier") ($t[$i+1+(2*$i)]+".v");}
+for($i=1;$i<($p-0);$i++){parent $t[$i-1+(2*$i)] $scg[$i];
+    setAttr ($t[$i-1+(2*$i)]+".sx") 0.5;setAttr ($t[$i-1+(2*$i)]+".sy") 0.5;setAttr ($t[$i-1+(2*$i)]+".sz") 0.5;
+    setAttr -l 1 -k 0 -cb 0 ($c[$i-1+(2*$i)]+".bezier");
+    setAttr -l 1 -k 0 -cb 0 ($c[$i-1+(2*$i)]+".change"); setAttr -l 1 -k 0 -cb 0 ($c[$i-1+(2*$i)]+".rx");
+    setAttr -l 1 -k 0 -cb 0 ($c[$i-1+(2*$i)]+".ry");     setAttr -l 1 -k 0 -cb 0 ($c[$i-1+(2*$i)]+".rz");
+    connectAttr -f ($c[$i+(2*$i)]+".bezier") ($t[$i-1+(2*$i)]+".v");}}
+       else{
+       for($i=0;$i<(size($cj));$i++)
+          {string $ct[] = rp_create_control ($s,$i);
+           parentConstraint -w 1 $cj[$i] $ct[1]; delete -cn $ct[1]; makeIdentity -a 1 -t 1 $ct[1];
+           parentConstraint -mo -w 1 $ct[0] $cj[$i]; parent $ct[1] $cg;
+              connectAttr -f ($ct[0]+".change") ($cj[$i]+".sx");
+              connectAttr -f ($ct[0]+".change") ($cj[$i]+".sy");
+              connectAttr -f ($ct[0]+".change") ($cj[$i]+".sz");}   }
+        parent $cg $rg;}
+// > connection control to curve
+if(`checkBoxGrp -q -v1 CTJP`==0){
+skinCluster -n ($s[0]+"_skin") -dr 2.0 -mi 2 -rui 1 $cj $s[0];}
+// > end
+    select $h[0]; ToggleLocalRotationAxes;
+    select $s[0]; rp_Twist;
+    print (" :) > rope riging curve > "+$s[0]+"\n");   }
+//..............................................................................................//
+global proc rp_mixTwist (){
+if(`checkBoxGrp -q -v1 MRL`){checkBoxGrp -e -v1 0 MRL;}else{checkBoxGrp -e -v1 1 MRL;}
+if(`checkBoxGrp -q -v1 VRL`){checkBoxGrp -e -v1 0 VRL;}else{checkBoxGrp -e -v1 1 VRL;}   }
+//..............................................................................................//
+global proc rp_Twist (){
+    int $ncj = `intField -q -v NCJ`;   // > control joints
+    // > selection list
+    string $s[]  = `ls -sl`; rp_check($s);
+    string $cj[] = `ls -typ "joint" ($s[0]+"_ctj_*")`;
+    // > twist and roll
+if(`checkBoxGrp -q -v1 MRL`)
+  {if(`getAttr ($s[0]+"_tw_hl.dtce")`==1)
+     { setAttr ($s[0]+"_tw_hl.dtce") 0;
+       disconnectAttr ($cj[0]+".wm[0]")($s[0]+"_tw_hl.dwum");
+       disconnectAttr ($cj[($ncj-1)]+".wm[0]")($s[0]+"_tw_hl.dwue");}
+   string $rl = `createNode -n ($s[0]+"_roll") multiplyDivide`;
+                 connectAttr -f ($cj[0]+".rx")($rl+".i1x");
+                 setAttr ($rl+".i2x") (-1);
+                 connectAttr -f ($cj[0]+".rx")($s[0]+"_tw_hl"+".rol");
+   string $tw = `createNode -n ($s[0]+"_twist") plusMinusAverage`;
+                 connectAttr -f ($rl+".ox")($tw+".i1[0]");
+                 connectAttr -f ($cj[($ncj-1)]+".rx")($tw+".i1[1]");
+                 connectAttr -f ($tw+".o1")($s[0]+"_tw_hl"+".twi");}
+else // > advanced twist
+  {if(`objExists ($s[0]+"_twist")`)
+     { delete ($s[0]+"_twist") ($s[0]+"_roll");
+       disconnectAttr ($cj[0]+".rx")($s[0]+"_tw_hl"+".rol");}
+          setAttr ($s[0]+"_tw_hl.dtce") 1;
+       setAttr ($s[0]+"_tw_hl.dwut") 4;setAttr ($s[0]+"_tw_hl.dwua") 0;
+       connectAttr ($cj[0]+".wm[0]")($s[0]+"_tw_hl.dwum");
+       connectAttr ($cj[($ncj-1)]+".wm[0]")($s[0]+"_tw_hl.dwue");
+       setAttr ($s[0]+"_tw_hl.dwuy") 1;setAttr ($s[0]+"_tw_hl.dwvy") 1;
+       setAttr ($s[0]+"_tw_hl.dwuz") 0;setAttr ($s[0]+"_tw_hl.dwvz") 0;
+         setAttr ($s[0]+"_tw_hl"+".rol") 0; setAttr ($s[0]+"_tw_hl"+".twi") 0;}
+    // > end
+    select $s[0];}
+//..............................................................................................//
+global proc rp_grip (){
+string $s[]  = `ls -sl`;
+if(`gmatch $s[0] "*_grip*"`){string $ps[] = `listRelatives -p $s[0]`; delete $ps[0];} else {
+rp_check($s); string $cj[] = `ls -typ "joint" ($s[0]+"_tw_*")`;
+for($y=0;$y<(size($cj));$y++){
+if(`objExists ("ctgrp_"+$s[0]+"_grip"+($y+1))`==0){
+   string $ct[] = `circle -nr 1 0 0 -r 0.8 -d 3 -ch 0 -n ("CT_"+$s[0]+"_grip"+($y+1))`;
+   string $ctg  = `group -n ("ctgrp_"+$s[0]+"_grip"+($y+1)) $ct[0]`;
+   parent $ctg ($s[0]+"_rig");
+      setAttr -l 1 -k 0 ($ct[0]+".tx");setAttr -l 1 -k 0 ($ct[0]+".ty");setAttr -l 1 -k 0 ($ct[0]+".tz");
+      setAttr -l 1 -k 0 ($ct[0]+".rx");setAttr -l 1 -k 0 ($ct[0]+".ry");setAttr -l 1 -k 0 ($ct[0]+".rz");
+      setAttr -l 1 -k 0 ($ct[0]+".sx");setAttr -l 1 -k 0 ($ct[0]+".sy");setAttr -l 1 -k 0 ($ct[0]+".sz");
+      setAttr -k 0 ($ct[0]+".v"); setAttr ($ct[0]+"Shape.ove") 1; setAttr ($ct[0]+"Shape.ovc") 13;
+      addAttr -ln "move" -at "long" -min 0 -max (size($cj)) -dv 0 -k 1 $ct[0];
+   parentConstraint -w 1 $cj $ctg;
+   for($i=0;$i<(size($cj));$i++){setAttr ($ct[0]+".move") $i;
+      for($x=0;$x<(size($cj));$x++){setAttr ($ctg+"_parentConstraint1."+$cj[$x]+"W"+$x) 0;
+                                    setAttr ($ctg+"_parentConstraint1."+$cj[$i]+"W"+$i) 1;
+      setDrivenKeyframe -cd ($ct[0]+".move")($ctg+"_parentConstraint1."+$cj[$x]+"W"+$x);}}
+   setAttr ($ct[0]+".move") ($y+1); select $s[0]; break;}}}   }
+//..............................................................................................//
+global proc rp_surface (){
+    int $ncj = `intField -q -v NCJ`;   // > control joints
+    float $rn = `intField -q -v NJ`;
+    int $bz = `checkBoxGrp -q -v1 CTJP`;
+    string $s[]  = `ls -sl`; rp_check($s);
+    if(`objExists ($s[0]+"_surface")`){rp_del;rp_cr;}
+    string $cj[] = `ls -typ "joint" ($s[0]+"_ctj_*")`;
+float $x; if(`optionMenuGrp -q -v AXES`=="x"){$x=1;}
+float $y; if(`optionMenuGrp -q -v AXES`=="y"){$y=1;}
+float $z; if(`optionMenuGrp -q -v AXES`=="z"){$z=1;}
+string $su[]=`extrude -ch $bz -rn 0 -po 0 -et 0 -upn 0 -d $x $y $z -dl 3 -n ($s[0]+"_surface") $s[0]`;
+move ((-1)*($x/2)) ((-1)*($y/2)) ((-1)*($z/2)) $su[0]; makeIdentity -a 1 -t 1 $su[0];
+    string $sj[] = `ls -typ "joint" ($s[0]+"_tw_*")`;
+    // pivot move
+    vector $t = `xform -q -t -ws $cj[0]`;
+    setAttr ($su[0]+".rpx") ($t.x);setAttr ($su[0]+".rpy") ($t.y);setAttr ($su[0]+".rpz") ($t.z);
+    setAttr ($su[0]+".spx") ($t.x);setAttr ($su[0]+".spy") ($t.y);setAttr ($su[0]+".spz") ($t.z);
+    // hairs
+    string $hsys = `createNode -n ($s[0]+"_position") "hairSystem"`;
+    string $hsysg[] = `listRelatives -p $hsys`; rename $hsysg[0] ($s[0]+"_surface_grp_");
+    select $su[0] $hsys; createHair (size($sj)) 1 2 0 0 1 1 1 0 2 2 1;
+    delete ($s[0]+"_surface_grp_") ($s[0]+"_surface_grp_OutputCurves");
+    // joints
+    string $sg[] = `listRelatives -c ($s[0]+"_surface_grp_Follicles")`; delete ($s[0]+"_tw_hl");
+    for($i=0;$i<(size($sj));$i++){parent $sj[$i] $sg[$i]; makeIdentity -a 1 -r 1 $sj[$i];
+                                  connectAttr -f ($s[0]+"_rig.s")($sg[$i]+".s");}
+    parent $su[0] ($s[0]+"_sistem"); parent ($s[0]+"_surface_grp_Follicles")($s[0]+"_sistem");
+    // conection scale joints
+    if($bz==0){
+    if(`checkBoxGrp -q -v1 CTJ`){
+    for($i=0;$i<(size($cj));$i++){disconnectAttr ($s[0]+"_"+($i+1)+"_CT.change") ($cj[$i]+".sy");
+                                  disconnectAttr ($s[0]+"_"+($i+1)+"_CT.change") ($cj[$i]+".sz");}}
+    delete ($s[0]+"_sx")($s[0]+"_s");}
+    // pow scale
+    string $sx = `createNode -n($s[0]+"_pow") multiplyDivide`; setAttr ($sx+".op")2;
+                  connectAttr -f ($s[0]+"_rig.s")($sx+".i2");
+                  setAttr ($sx+".i1x")1;setAttr ($sx+".i1y")1;setAttr ($sx+".i1z")1;
+                  connectAttr -f ($sx+".o")($s[0]+"_surface_grp_Follicles.s");
+    // > skin
+       string $fol[] = `ls -typ "transform" ($s[0]+"_surfaceFollicle*")`;
+       for($i=0;$i<(size($fol));$i++){setAttr ($fol[$i]+".it") 0;}
+    if($bz==0){rebuildSurface -su $rn -du 3 -sv 0 -dv 1 $su[0]; intField -e -v $rn NJ;
+               skinCluster -n ($s[0]+"_skin_surface") -dr 2.0 -mi 2 -rui 1 $cj $su[0];}
+    setAttr ($su[0]+".it") 0; setAttr ($su[0]+".tmp") 1;
+    // > end
+    select $s[0];}
+//..............................................................................................//
+ak_rope;

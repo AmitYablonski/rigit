@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf31ddfd-4117-4798-ace6-1e8b78b269ce" name="Default" comment="mini fixes">
+      <change beforePath="$PROJECT_DIR$/GroupIt.py" beforeDir="false" afterPath="$PROJECT_DIR$/GroupIt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Guider/GuiderMethods.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guider/GuiderMethods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Guider/GuiderUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guider/GuiderUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RigFinalizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/RigFinalizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RigItUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/RigItUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RigItUI/RigItBasicWindow_qt.py" beforeDir="false" afterPath="$PROJECT_DIR$/RigItUI/RigItBasicWindow_qt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScriptIt/Extras/tools/rivets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScriptIt/SI_AttrMaker.py" beforeDir="false" afterPath="$PROJECT_DIR$/ScriptIt/SI_AttrMaker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringsCollider.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpringsCollider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UVtransMaster.py" beforeDir="false" afterPath="$PROJECT_DIR$/UVtransMaster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generalMayaTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/generalMayaTools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RiggingFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RiggingFunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amit/auto_tricycle/uitestui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amit/paper/paperMethods.py" beforeDir="false" afterPath="$PROJECT_DIR$/../amit/paper/paperMethods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amit/proper/properUI_backp.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="RigIt" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1QYilxV0jsgHnpyBDsXkT9SKgDc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value=":&#9;null&#9;null" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../assets/variants/gonzo_the_great_pearls/rigging/gonzo_the_great_pearls" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/versions/200326_RigIt_laptop/RigItUI.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\MBA_SE02\scripts\Rig-It" />
+      <recent name="D:\For SnowRig scripts\scripts\MBA_rigging_repo" />
+      <recent name="D:\For SnowRig scripts\scripts\MBA_rigging_repo\general_maya_scripts\ofir" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.tete">
+    <configuration name="RigIt" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="SnowRig" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="SnowRig" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Dev\sb_repo\venv\sb_repo\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tete" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SnowRig" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Dev\sb_repo\venv\sb_repo\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/New folder/tete.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tete" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf31ddfd-4117-4798-ace6-1e8b78b269ce" name="Default" comment="" />
+      <created>1519627213158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519627213158</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First git save for RigIt">
+      <created>1559042765037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559042765037</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First git save for RigIt icons">
+      <created>1559043175870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559043175870</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated in several places&#10;- added Color Switcher">
+      <created>1561637314748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561637314748</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated GroupIt">
+      <created>1561637589717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561637589717</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated GroupIt">
+      <created>1561637626146</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561637626146</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated UVtransMaster">
+      <created>1563787731412</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563787731413</updated>
+    </task>
+    <task id="LOCAL-00007" summary="big update&#10;unlocked git and submitted changes&#10;- added VRay ID tool&#10;- UV trans master tool&#10;- select influences&#10;- light wrap using cv wrap (not as stable though)&#10;- updated a few script it scripts&#10;- added Rig Finalizer - checklist">
+      <created>1572903342304</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572903342304</updated>
+    </task>
+    <task id="LOCAL-00008" summary="big update pt 2&#10;- UI modules">
+      <created>1572903483412</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572903483413</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <created>1572969267061</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572969267061</updated>
+    </task>
+    <task id="LOCAL-00010" summary="corrected find pos name">
+      <created>1573142597521</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573142597521</updated>
+    </task>
+    <task id="LOCAL-00011" summary="- Rig finalizer update + added fixer (basic)&#10;- added transfer vtx weights (by selection)&#10;- UV trans master update - fixed transfer issue&#10;- Updated vray id tool (turning on vray ID)">
+      <created>1574160894216</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574160894216</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added front of chain">
+      <created>1574160928949</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574160928949</updated>
+    </task>
+    <task id="LOCAL-00013" summary="- updated for only sets to look for steps under high grp&#10;- anim found will show each obj only once&#10;- start log fixed and added time stamp">
+      <created>1574162384866</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574162384866</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update&#10;- added multiUVConnect&#10;- sorted UI shading tools&#10;- general updates/mini fixes">
+      <created>1577120014236</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1577120014236</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added files and a bunch of updates&#10;- added gmt.copyWeights()&#10;- added gmt.isUnderPar()&#10;- new and improved multiUVConnect&#10;- updated renamer to not fail on some more cases">
+      <created>1578996685777</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578996685777</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update&#10;- added naming clashes separation and selection window&#10;- added search for vals on &quot;*_ctl&quot;&#10;- corrected isTooFarFromParent for sets&#10;- added search for outside of main&#10;- added yellow feedback color for when finding a guide on props/sets&#10;- updated log prints">
+      <created>1578998028787</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1578998028787</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added to git">
+      <created>1579003410228</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1579003410228</updated>
+    </task>
+    <task id="LOCAL-00018" summary="save before update">
+      <created>1579534878011</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1579534878011</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added Guider">
+      <created>1579792829264</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1579792829264</updated>
+    </task>
+    <task id="LOCAL-00020" summary="change guider to Guider">
+      <created>1579793276262</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1579793276262</updated>
+    </task>
+    <task id="LOCAL-00021" summary="change guideNamer method">
+      <created>1581004182110</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1581004182110</updated>
+    </task>
+    <task id="LOCAL-00022" summary="git save before update">
+      <created>1581955154358</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1581955154358</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update">
+      <created>1581957106736</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1581957106736</updated>
+    </task>
+    <task id="LOCAL-00024" summary="more updates">
+      <created>1582020487341</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1582020487341</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update">
+      <created>1582214846749</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1582214846749</updated>
+    </task>
+    <task id="LOCAL-00026" summary="guider - quick rig update">
+      <created>1583402926692</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1583402926692</updated>
+    </task>
+    <task id="LOCAL-00027" summary="tool is now PySide">
+      <created>1585610635603</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1585610635603</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add to git (wip)">
+      <created>1587298092306</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1587298092306</updated>
+    </task>
+    <task id="LOCAL-00029" summary="basic QT window">
+      <created>1587316012143</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1587316012143</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated UVtransMaster" />
+    <MESSAGE value="lite wrap update" />
+    <MESSAGE value="big update&#10;unlocked git and submitted changes&#10;- added VRay ID tool&#10;- UV trans master tool&#10;- select influences&#10;- light wrap using cv wrap (not as stable though)&#10;- updated a few script it scripts&#10;- added Rig Finalizer - checklist" />
+    <MESSAGE value="big update pt 2&#10;- UI modules" />
+    <MESSAGE value="corrected find pos name" />
+    <MESSAGE value="- Rig finalizer update + added fixer (basic)&#10;- added transfer vtx weights (by selection)&#10;- UV trans master update - fixed transfer issue&#10;- Updated vray id tool (turning on vray ID)" />
+    <MESSAGE value="added front of chain" />
+    <MESSAGE value="- updated for only sets to look for steps under high grp&#10;- anim found will show each obj only once&#10;- start log fixed and added time stamp" />
+    <MESSAGE value="update&#10;- added multiUVConnect&#10;- sorted UI shading tools&#10;- general updates/mini fixes" />
+    <MESSAGE value="added files and a bunch of updates&#10;- added gmt.copyWeights()&#10;- added gmt.isUnderPar()&#10;- new and improved multiUVConnect&#10;- updated renamer to not fail on some more cases" />
+    <MESSAGE value="update&#10;- added naming clashes separation and selection window&#10;- added search for vals on &quot;*_ctl&quot;&#10;- corrected isTooFarFromParent for sets&#10;- added search for outside of main&#10;- added yellow feedback color for when finding a guide on props/sets&#10;- updated log prints" />
+    <MESSAGE value="added to git" />
+    <MESSAGE value="mini fixes" />
+    <MESSAGE value="save before update" />
+    <MESSAGE value="added Guider" />
+    <MESSAGE value="change guider to Guider" />
+    <MESSAGE value="add guider methods" />
+    <MESSAGE value="change guideNamer method" />
+    <MESSAGE value="git save before update" />
+    <MESSAGE value="more updates" />
+    <MESSAGE value="update" />
+    <MESSAGE value="guider - quick rig update" />
+    <MESSAGE value="tool is now PySide" />
+    <MESSAGE value="add to git (wip)" />
+    <MESSAGE value="basic QT window" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic QT window" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Guider/GuiderMethods.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
