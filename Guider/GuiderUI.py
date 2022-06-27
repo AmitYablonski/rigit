@@ -4,13 +4,17 @@ from shiboken2 import wrapInstance
 from maya import OpenMayaUI as omui
 import GuiderMethods as Guider
 import sb_ui
+import importlib
 
-reload(Guider)
+if pm.about(version=True) == '2022':
+    importlib.reload(Guider)
+else:
+    reload(Guider)
 
 
 def getMayaMainWindow():
     win = omui.MQtUtil_mainWindow()
-    ptr = wrapInstance(long(win), QtWidgets.QMainWindow)
+    ptr = wrapInstance(int(win), QtWidgets.QMainWindow)
     return ptr
 
 
@@ -24,7 +28,6 @@ class GuiderUI(QtWidgets.QDialog):
         self.buildUI()
         self.show()
         self.guiderInst = Guider.Guider()
-        print self.guiderInst
 
     def buildUI(self):
         # Main layout

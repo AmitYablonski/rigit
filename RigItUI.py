@@ -2,7 +2,6 @@ from maya import cmds, mel
 import pymel.core as pm
 import os, sys
 from functools import partial
-import re
 import SnowballTools as sbt
 import generalMayaTools as gmt
 import generalMayaPrints as gmp
@@ -14,12 +13,22 @@ import mgear
 # import mGear_utils
 # import mgear.maya.synoptic as syn
 
-reload(sbt)
-reload(gmt)
-reload(gmp)
-reload(gms)
-reload(rim)
-reload(mgm)
+import importlib
+if pm.about(version=True) == '2022':
+    importlib.reload(sbt)
+    importlib.reload(gmt)
+    importlib.reload(gmp)
+    importlib.reload(gms)
+    importlib.reload(rim)
+    importlib.reload(mgm)
+else:
+    reload(sbt)
+    reload(gmt)
+    reload(gmp)
+    reload(gms)
+    reload(rim)
+    reload(mgm)
+
 
 
 # TODO possibly set hotkeys
@@ -980,7 +989,10 @@ class RigItUI:
     @staticmethod
     def openGuiderUI(*args):
         import GuiderUI
-        reload(GuiderUI)
+        if pm.about(version=True) == '2022':
+            importlib.reload(GuiderUI)
+        else:
+            reload(GuiderUI)
         GuiderUI.GuiderUI()
 
     @staticmethod
